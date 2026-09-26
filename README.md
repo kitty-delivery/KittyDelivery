@@ -1,44 +1,51 @@
 <div align="center">
-  <h1>KittyDelivery</h1>
-  <p>Projet d'application de livraison de repas, découpé en architecture microservices Node.js.</p>
+  <img src=".github/assets/banner.png" alt="KittyDelivery banner" width="100%" />
 
-<p>
-  <img src="https://img.shields.io/badge/status-projet_scolaire-lightgrey" alt="status" />
-</p>
+  <h1>KittyDelivery</h1>
+
+  <p>
+    A food delivery application split into an independent Node.js microservices architecture, built as a student project.
+  </p>
+
+  <p>
+    <img src="https://img.shields.io/github/last-commit/kitty-delivery/KittyDelivery" alt="last update" />
+    <img src="https://img.shields.io/badge/status-student%20project-lightgrey" alt="status" />
+  </p>
 </div>
 
 <br />
 
-## Table des matières
+## :notebook_with_decorative_cover: Table of Contents
 
-- [A propos](#a-propos)
-- [Architecture](#architecture)
-- [Dépôts du projet](#depots-du-projet)
-- [Contact](#contact)
+- [About the Project](#star2-about-the-project)
+- [Architecture](#building_construction-architecture)
+- [Related Repositories](#link-related-repositories)
+- [Contact](#handshake-contact)
 
-## A propos
+## :star2: About the Project
 
-KittyDelivery est un projet réalisé dans le cadre de mes études, pensé comme une application de livraison de repas découpée en plusieurs microservices indépendants (Node.js / Express), chacun dans son propre dépôt GitHub. Ce dépôt sert de point d'entrée et de référence pour l'ensemble du projet.
+KittyDelivery is a school project designed as a food delivery application (similar to Uber Eats), split into several independent Node.js / Express microservices, each living in its own GitHub repository. This repository is the entry point and reference for the whole project.
 
-## Architecture
+## :building_construction: Architecture
 
-Chaque microservice est un dépôt à part, avec son propre `package.json` et, pour certains, son propre `Dockerfile` et `docker-compose.yml`. Cette organisation permet de faire évoluer et déployer chaque service indépendamment.
+Each microservice is a separate repository, with its own `package.json` and, for some of them, its own `Dockerfile` and `docker-compose.yml`. This organization allows each service to evolve and be deployed independently.
 
-## Dépôts du projet
+## :link: Related Repositories
 
-| Dépôt | Rôle |
+| Repository | Role |
 | --- | --- |
-| [KittyDelivery_API](https://github.com/BaditSad/KittyDelivery_API) | Point d'entrée API du projet |
-| [KittyDelivery_mc_user](https://github.com/BaditSad/KittyDelivery_mc_user) | Microservice déclaré en interne comme "Delivery" |
-| [KittyDelivery_mc_restaurant](https://github.com/BaditSad/KittyDelivery_mc_restaurant) | Microservice restaurants (Express, MongoDB, Docker) |
-| [KittyDelivery_mc_auth](https://github.com/BaditSad/KittyDelivery_mc_auth) | Microservice déclaré en interne comme "General" |
-| [KittyDelivery_mc_component](https://github.com/BaditSad/KittyDelivery_mc_component) | Microservice composants |
-| [KittyDelivery_mc_notif](https://github.com/BaditSad/KittyDelivery_mc_notif) | Microservice notifications |
-| [KittyDelivery_mc_article](https://github.com/BaditSad/KittyDelivery_mc_article) | Microservice articles |
-| [KittyDelivery_mc_log](https://github.com/BaditSad/KittyDelivery_mc_log) | Microservice logs |
-| [KittyDelivery_mc_menu](https://github.com/BaditSad/KittyDelivery_mc_menu) | Microservice menus |
-| [KittyDelivery_mc_order](https://github.com/BaditSad/KittyDelivery_mc_order) | Microservice commandes |
+| [KittyDelivery_core](https://github.com/kitty-delivery/KittyDelivery_core) | Architecture hub: diagram, docker-compose, submodules |
+| [KittyDelivery_API](https://github.com/kitty-delivery/KittyDelivery_API) | API gateway |
+| [KittyDelivery_mc_user](https://github.com/kitty-delivery/KittyDelivery_mc_user) | User accounts (internally named "Delivery") |
+| [KittyDelivery_mc_restaurant](https://github.com/kitty-delivery/KittyDelivery_mc_restaurant) | Restaurant management (Express, MongoDB, Docker) |
+| [KittyDelivery_mc_auth](https://github.com/kitty-delivery/KittyDelivery_mc_auth) | Authentication (internally named "General") |
+| [KittyDelivery_mc_component](https://github.com/kitty-delivery/KittyDelivery_mc_component) | Shared components (internally named "Developer") |
+| [KittyDelivery_mc_notif](https://github.com/kitty-delivery/KittyDelivery_mc_notif) | Notifications (internally named "Client") |
+| [KittyDelivery_mc_article](https://github.com/kitty-delivery/KittyDelivery_mc_article) | Products and dishes (internally named "Restaurant") |
+| [KittyDelivery_mc_log](https://github.com/kitty-delivery/KittyDelivery_mc_log) | Logs (empty repository) |
+| [KittyDelivery_mc_menu](https://github.com/kitty-delivery/KittyDelivery_mc_menu) | Menus (empty repository) |
+| [KittyDelivery_mc_order](https://github.com/kitty-delivery/KittyDelivery_mc_order) | Orders (internally named "Commercial") |
 
-## Contact
+## :handshake: Contact
 
 Brieuc Dumortier, [LinkedIn](https://www.linkedin.com/in/dumortier-brieuc/), dumortier.contact@gmail.com
